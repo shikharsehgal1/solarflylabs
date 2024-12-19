@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import EnergyUsage from 'EnergyUsage';
-import EnergyPrice from 'EnergyPrice';
+import EnergyUsage from './components/EnergyUsage';
+import EnergyPrice from './components/EnergyPrice';
 
 function App() {
   return (
